@@ -1,0 +1,39 @@
+
+form {
+
+  margin: 20px;
+  max-width: 300px;
+  padding: 16px;
+  background-color: white;
+}
+
+input[type=int] {
+  width: 50%;
+  padding: 10px;
+  margin: 5px 0 22px 0;
+  border: 1px solid black;
+  background:#F2F2F2;
+}
+
+input[type=submit]{
+  
+  background-color:red;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.hour{
+	border:3px solid black;
+	padding:20px 20px;
+	background-color:#C0C0C0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+background-image:url('https://images.unsplash.com/photo-1566625147574-b1cf1ff6cf7d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80');
+}

@@ -1,0 +1,18 @@
+input[type=text] {
+  width: 40%;
+  padding: 12px 20px;
+  margin: 10px 0;
+}
+
+input[type=submit]{
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  border: none;
+  cursor: pointer;
+  width: 30%;
+  height:100%;
+}
+input[type=submit]:hover {
+  opacity: 0.8;
+}
