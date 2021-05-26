@@ -1,0 +1,45 @@
+<html>
+<head>
+<title>
+javascriptexample
+</title>
+<body>
+<center><h1>Lifecycle of girl</h1></center>
+<script>
+function age(X)
+{
+var pic;
+if(X==2){
+pic="age2.jpg"
+}
+else
+{if(X==12)
+{
+pic="age12.jpg"
+}
+else{
+if(X==25)
+{
+pic="age25.jpg"
+}
+else{
+if(X==60)
+{
+pic="age60.jpg"
+}
+}
+}
+}
+document.getElementById('myImage').src=pic;
+}
+</script>
+<img id="myImage"src="age2.jpg" width="400" height="400">
+<p>
+<button type="button" onclick="age(2)">Childhood</button>
+<button type="button" onclick="age(12)">Adolescence</button>
+<button type="button" onclick="age(25)">Adulthood</button>
+<button type="button" onclick="age(60)">Oldage</button>
+</p>
+</body>
+</head>
+</html>
