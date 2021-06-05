@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<body>
+<center>
+
+<h2>Functions</h2>
+<p id="add1"></p>
+<p id="sub1"></p>
+<p id="mul1"></p>
+<p id="div1"></p>
+<script>
+var A = add(10, 10);
+var B = sub(10, 10);
+var C = mul(10, 10);
+var D = div(10, 10);
+document.getElementById("add1").innerHTML ="10+10="+A;
+document.getElementById("sub1").innerHTML ="10-10="+B;
+document.getElementById("mul1").innerHTML ="10*10="+C;
+document.getElementById("div1").innerHTML ="10/10="+D;
+
+function add(a, b) {
+  return a + b;
+}
+
+function sub(a, b) {
+  return a - b;
+}
+
+function mul(a, b) {
+  return a * b;
+}
+
+function div(a, b) {
+  return a / b;
+}
+</script>
+</center>
+
+</body>
+</html>
